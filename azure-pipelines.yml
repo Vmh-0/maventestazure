@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: 'https://github.com/Vmh-0/maventestazure/blob/main/mvnprog/pom.xml'
+    mavenPomFile: 'mvnprog/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
